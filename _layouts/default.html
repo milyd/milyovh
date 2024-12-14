@@ -1,0 +1,94 @@
+<!--
+  ____                                      _   _              _  __                              _        _    
+ |  _ \  ___ __      __ ___  _ __  ___   __| | | |__   _   _  | |/ / __ _  _ __  _ __ ___    ___ | |  ___ | | __
+ | |_) |/ _ \\ \ /\ / // _ \| '__|/ _ \ / _` | | '_ \ | | | | | ' / / _` || '__|| '_ ` _ \  / _ \| | / _ \| |/ /
+ |  __/| (_) |\ V  V /|  __/| |  |  __/| (_| | | |_) || |_| | | . \| (_| || |   | | | | | ||  __/| ||  __/|   < 
+ |_|    \___/  \_/\_/  \___||_|   \___| \__,_| |_.__/  \__, | |_|\_\\__,_||_|   |_| |_| |_| \___||_| \___||_|\_\
+                                                       |___/                                                    
+-->
+<!-- Generation date: {{ site.time }} -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {{ page.title | default: site.title }}{% if page.title %} - {{ site.title }}{% endif %}
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/aos.css">
+    <meta name="author" content="mily - {{site.email}}">
+    <meta name="description" content="My awesome webpage!">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ page.title | default: site.title }}{% if page.title %} - {{ site.title }}{% endif %}"">
+    <meta property="og:image" content="{{ site.url }}/favicon.png">
+    <meta property="og:description" content="My awesome website!">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
+
+</head>
+<body id="body" class="text-white">
+    <div class="container">
+        <div id="wrapper" class="align-middle ccenter mt-5 w-50 p-4 rounded-4">
+            <header>
+                <div class="row">
+                    <div class="col">
+                        <h1>
+                            {{site.title}}
+                        </h1>
+                    </div>
+                    <div class="col-sm-5 text-lg-end">
+                        <h1>
+                            <a href="https://github.com/{{site.github_username}}" class="link-light text-decoration-none" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://t.me/@{{site.telegram_username}}" class="link-light text-decoration-none" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-telegram"></i>
+                            </a>
+                            <a href="mailto:{{site.email}}" class="link-light text-decoration-none">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </header>
+            <hr>
+            <div class="row">
+                <nav class="col-md-3 text-nowrap">
+                    <ul class="list-unstyled">
+                        {% for item in site.data.navigation.main %}
+                            <a href="{{item.url}}" class="link-light text-decoration-none lead" title="{{item.title}}">
+                                <li>{{item.title}} <i class="bi bi-arrow-right-short"></i></li>
+                            </a>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                <div class="col">
+                    <article id="content" data-aos="fade-down" data-aos-duration="900">
+                        {{content}}
+                        
+                    </article>
+                </div>
+            </div>
+            <footer class="">
+                <hr>
+                &copy; mily.ovh {{ site.time | date: '%Y'}} - All rights reserved
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="/assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

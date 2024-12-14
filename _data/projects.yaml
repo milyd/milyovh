@@ -1,0 +1,16 @@
+projects:
+  - title: osBase.pl
+    description: Free to use Windows, Office and Linux ISO images library
+    website: https://osbase.pl
+  - title: Stop eduVULCAN
+    description: Website about bad VULCAN's practices
+    website: https://uonet.fun
+  - title: KarmelekAPI
+    description: API with photos of my cat
+    website: https://karmelekapi.mily.smallhost.pl
+  - title: jebacvulcana.pl
+    description: KarmelekAPI web UI
+    website: https://jebacvulcana.pl
+  - title: IP Tools
+    description: Basic IP address info
+    website: https://iptools.mily.ovh

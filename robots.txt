@@ -1,0 +1,4 @@
+Sitemap: https://mily.ovh/sitemap.xml
+Useragent: *
+Allow: /
+Disallow: /karmelek
