@@ -20,6 +20,6 @@ I'm mily, and I live in Poland. My passions are programming, computers, and smar
 
 ## Contact
 * E-mail: [{{site.email}}](mailto:{{site.email}})
-* Telegram: [{{site.telegram_username}}](https://t.me/@{{site.telegram_username}})
+* Telegram: [{{site.telegram_username}}](https://t.me/{{site.telegram_username}})
 
 This page has been generated on **{{ site.time | date_to_string }}**!
