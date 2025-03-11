@@ -7,7 +7,7 @@ projects:
     website: https://uonet.fun
   - title: KarmelekAPI
     description: API with photos of my cat
-    website: https://karmelekapi.mily.smallhost.pl
+    website: https://karmelekapi.mily.ovh
   - title: jebacvulcana.pl
     description: KarmelekAPI web UI
     website: https://jebacvulcana.pl

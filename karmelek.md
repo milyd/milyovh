@@ -7,4 +7,4 @@ title: Kici kici
 permalink: /karmelek
 description: Karmelek
 ---
-<img src="https://karmelekapi.mily.smallhost.pl/random" alt="Karmelek" class="img-fluid rounded w-50 h-50">
+<img src="https://karmelekapi.mily.ovh/random" alt="Karmelek" class="img-fluid rounded w-50 h-50">
