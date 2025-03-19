@@ -14,3 +14,6 @@ projects:
   - title: IP Tools
     description: Basic IP address info
     website: https://iptools.mily.ovh
+  - title: Meow Universal Recovery Project
+    description: Meow Universal Recovery Project is an open-source fork of OrangeFox Recovery Project.
+    website: https://murp-project.pages.dev
