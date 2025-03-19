@@ -5,5 +5,7 @@ main:
     url: /about-me
   - title: Projects
     url: /projects
+  - title: My hardware
+    url: /hardware
   - title: Karmelek
     url: /karmelek

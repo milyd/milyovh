@@ -1,0 +1,21 @@
+hardware:
+  - title: "Main PC"
+    description: |
+      OS: Fedora Linux 41 GNOME<br>
+      CPU: AMD Ryzen 5 7500F<br>
+      GPU: AMD Radeon RX 6400<br>
+      RAM: 2×8GB Kingston Fury 6000MHz<br>
+      Motherboard: ASRock B650M-HDV/M.2<br>
+      SSD: WD SN580 1TB<br>
+  - title: "Laptop - ThinkPad T480s"
+    description: |
+      OS: macOS 13 Ventura<br>
+      CPU: Intel Core i5 8350U<br>
+      GPU: Intel UHD Graphics 620<br>
+      RAM: 8GB<br>
+      SSD: WD SN730 256GB<br>
+  - title: "Mobile devices"
+    description: |
+      Phone: Google Pixel 8 128GB (Android 16 Beta)<br>
+      Watch: Galaxy Watch 4 WiFi<br>
+      Earbuds: Redmi Buds 6 Lite
