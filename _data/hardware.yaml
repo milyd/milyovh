@@ -1,21 +1,27 @@
 hardware:
   - title: "Main PC"
     description: |
-      OS: Fedora Linux 41 GNOME<br>
-      CPU: AMD Ryzen 5 7500F<br>
-      GPU: AMD Radeon RX 6400<br>
-      RAM: 2×8GB Kingston Fury 6000MHz<br>
-      Motherboard: ASRock B650M-HDV/M.2<br>
-      SSD: WD SN580 1TB<br>
+      <ul>
+        <li>OS: Fedora Linux 41 GNOME</li>
+        <li>CPU: AMD Ryzen 5 7500F</li>
+        <li>GPU: AMD Radeon RX 6400</li>
+        <li>RAM: 2×8GB Kingston Fury 6000MHz</li>
+        <li>Motherboard: ASRock B650M-HDV/M.2</li>
+        <li>SSD: WD SN580 1TB</li>
+      </ul>
   - title: "Laptop - ThinkPad T480s"
     description: |
-      OS: macOS 13 Ventura<br>
-      CPU: Intel Core i5 8350U<br>
-      GPU: Intel UHD Graphics 620<br>
-      RAM: 8GB<br>
-      SSD: WD SN730 256GB<br>
+      <ul>
+        <li>OS: macOS 13 Ventura</li>
+        <li>CPU: Intel Core i5 8350U</li>
+        <li>GPU: Intel UHD Graphics 620</li>
+        <li>RAM: 8GB</li>
+        <li>SSD: WD SN730 256GB</li>
+      </ul>
   - title: "Mobile devices"
     description: |
-      Phone: Google Pixel 8 128GB (Android 16 Beta)<br>
-      Watch: Galaxy Watch 4 WiFi<br>
-      Earbuds: Redmi Buds 6 Lite
+      <ul>
+        <li>Phone: Google Pixel 8 128GB (Android 16 Beta)</li>
+        <li>Watch: Galaxy Watch 4 WiFi</li>
+        <li>Earbuds: Redmi Buds 6 Lite</li>
+      </ul>
