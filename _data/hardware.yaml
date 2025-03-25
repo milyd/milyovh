@@ -22,8 +22,8 @@ hardware:
     description: |
       <ul>
         <li>OS: Debian 12</li>
-        <li>CPU: Intel Core i5 8350U</li>
-        <li>GPU: AMD PRO A10-8770E R7</li>
+        <li>CPU: AMD PRO A10-8770E R7</li>
+        <li>GPU: AMD Radeon R7</li>
         <li>RAM: 12GB</li>
         <li>SSD: WD SN730 256GB (system)</li>
         <li>SSD: GoodRam CX400 512GB G2 (data)</li>
