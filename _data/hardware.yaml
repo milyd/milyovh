@@ -2,7 +2,7 @@ hardware:
   - title: "Main PC"
     description: |
       <ul>
-        <li>OS: Fedora Linux 41 GNOME</li>
+        <li>OS: Fedora Linux 42 KDE</li>
         <li>CPU: AMD Ryzen 5 7500F</li>
         <li>GPU: AMD Radeon RX 6400</li>
         <li>RAM: 2×8GB Kingston Fury 6000MHz</li>
@@ -12,7 +12,7 @@ hardware:
   - title: "Laptop - ThinkPad T480s"
     description: |
       <ul>
-        <li>OS: macOS 13 Ventura</li>
+        <li>OS: Fedora Linux 41 GNOME</li>
         <li>CPU: Intel Core i5 8350U</li>
         <li>GPU: Intel UHD Graphics 620</li>
         <li>RAM: 8GB</li>
