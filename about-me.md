@@ -13,7 +13,7 @@ I'm mily, and I live in Poland. My passions are programming, computers, and smar
 * Jekyll
 
 ## Some facts about me
-* I have one cat, named [Karmelek](https://karmelekapi.mily.smallhost.pl/random)
+* I have one cat, named [Karmelek](https://karmelekapi.mily.ovh/random)
 * My main phone is Google Pixel 8
 * I bought this domain one year ago
 * I use Linux btw
@@ -21,5 +21,6 @@ I'm mily, and I live in Poland. My passions are programming, computers, and smar
 ## Contact
 * E-mail: [{{site.email}}](mailto:{{site.email}})
 * Telegram: [{{site.telegram_username}}](https://t.me/{{site.telegram_username}})
+* Matrix: [{{site.matrix_username}}](https://matrix.to/#/{{site.matrix_username}})
 
 This page has been generated on **{{ site.time | date_to_string }}**!

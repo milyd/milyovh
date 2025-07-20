@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://mily.ovh" 
 github_username:  milyd
 telegram_username: "milusii"
-
+matrix_username: "@mily:matrix.mily.ovh"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
